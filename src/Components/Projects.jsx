@@ -25,7 +25,7 @@ const prevproject=()=>{
     setcurrentindex((previndex)=> previndex===0 ? projectsData.length -1:previndex-1)
 }
     return(
-        <div className="container mx-auto py-4 pt-20 px-6 md:px-20 lg:px-32 my-20 w-full overflow-hidden" id="projects">
+        <div className="container mx-auto py-4 pt-20 px-6 md:px-20 lg:px-32 my-20 w-full overflow-hidden" id="Projects">
             <h1 className="text-2xl sm:text-4xl font-semibold mb-2 text-center">Projects <span className="underline underline-offset-4 decoration-2 under font-light">Completed</span></h1>
             <p className="text-center text-gray-700 mb-8 max-w-80 mx-auto">Building dreams into reality</p>
             {/* slider buttons */}

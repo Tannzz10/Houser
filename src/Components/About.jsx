@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <div
       className="flex flex-col items-center justify-center container mx-auto p-8 md:px-20 lg:px-32 w-full overflow-hidden"
-      id="about"
+      id="About"
     >
       {/* Heading */}
       <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold tracking-wide text-center text-gray-900 mb-4">

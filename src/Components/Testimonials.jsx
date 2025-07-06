@@ -2,7 +2,7 @@ import { assets, testimonialsData } from "../assets/assets"
 
 export const Testimonals=()=>{
     return(
-        <div className="container mx-auto py-10 lg:px-32 w-full overflow-hidden" id="testimonals">
+        <div className="container mx-auto py-10 lg:px-32 w-full overflow-hidden" id="Testimonals">
         <h1 className="text-2xl sm:text-4xl text-center font-semibold">Customer <span className="underline underline-offset-4 decoration-2 under font-light">Testimonals</span></h1>
         <p className="text-center text-gray-700 mb-8 max-w-80 mx-auto">Real stories from the dreamers like you</p>
         <div className="flex flex-wrap justify-center gap-8">
