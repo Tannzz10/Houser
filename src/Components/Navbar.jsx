@@ -36,10 +36,10 @@ export const Navbar = () => {
         <img  onClick={()=>setmobilemenu(false)} src={cross_icon} className='w-6' alt="" />
       </div>
        <ul className='flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium'>
-        <a onClick={()=>setmobilemenu(false)}  href="Home" className='px-4 py-2 rounded-full inline-block'>Home</a>
-         <a onClick={()=>setmobilemenu(false)}  href="About" className='px-4 py-2 rounded-full inline-block'>About</a>
-          <a onClick={()=>setmobilemenu(false)}  href="Projects" className='px-4 py-2 rounded-full inline-block'>Projects</a>
-           <a onClick={()=>setmobilemenu(false)}  href="Testimonals" className='px-4 py-2 rounded-full inline-block'>Testimonals</a>
+        <a onClick={()=>setmobilemenu(false)}  href="#Home" className='px-4 py-2 rounded-full inline-block'>Home</a>
+         <a onClick={()=>setmobilemenu(false)}  href="#About" className='px-4 py-2 rounded-full inline-block'>About</a>
+          <a onClick={()=>setmobilemenu(false)}  href="#Projects" className='px-4 py-2 rounded-full inline-block'>Projects</a>
+           <a onClick={()=>setmobilemenu(false)}  href="#Testimonals" className='px-4 py-2 rounded-full inline-block'>Testimonals</a>
       </ul>
      </div>
     </div>
